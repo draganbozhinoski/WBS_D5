@@ -24,5 +24,10 @@
 <foaf:Person>
 <foaf:name>Petar Partaloski</foaf:name>
 <foaf:mbox_sha1sum>f346f5b0c7c35730517bf5eb3510196c25253c86</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl"/></foaf:Person></foaf:knows></foaf:Person>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Marko Blazhevski</foaf:name>
+<foaf:mbox_sha1sum>5c4dbd8c7b9647c69835acc67f0c9855ba3b7944</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl"/></foaf:Person></foaf:knows></foaf:Person>
 </rdf:RDF>
