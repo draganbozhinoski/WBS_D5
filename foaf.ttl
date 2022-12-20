@@ -1,31 +1,39 @@
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl> <http://xmlns.com/foaf/0.1/maker> <https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/name> "Dragan Bozhinoski" .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/givenname> "Dragan" .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/family_name> "Bozhinoski" .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/nick> "Gage" .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "9d37b3a431ff038aabd6517e7fc89bfb9e10e766" .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/homepage> <https://www.facebook.com/fetzyMKD/> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/depiction> <https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/271422281_1660794357462787_3296410475353344230_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CkERjq4XE5kAX-V-cWN&_nc_ht=scontent.fskp4-1.fna&oh=00_AfA7jKOG3NaySitQk2Tglu46WTf--MR_Q71ww2Eb-rbutg&oe=63A684D3> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/phone> <tel:071519218> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://finki.ukim.mk/> .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid1 .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid2 .
-<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid3 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid1 <http://xmlns.com/foaf/0.1/name> "Petar Partaloski" .
-_:genid1 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "ad9a09592cf78b49d73ccbb280d6a1970724884a" .
-_:genid1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid2 <http://xmlns.com/foaf/0.1/name> "Marko Blazhevski" .
-_:genid2 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "dd6b03236785011402d7be061744a2c49f87733b" .
-_:genid2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid3 <http://xmlns.com/foaf/0.1/name> "Gorgi Ivanov" .
-_:genid3 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "0ca0d3c4e14e984ed303e9161827cc19350e4bec" .
-_:genid3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=1> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Dragan Bozhinoski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Dragan" ;
+  foaf:family_name "Bozhinoski" ;
+  foaf:nick "Gage" ;
+  foaf:mbox_sha1sum "9d37b3a431ff038aabd6517e7fc89bfb9e10e766" ;
+  foaf:homepage <https://www.facebook.com/fetzyMKD/> ;
+  foaf:depiction <https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/slika> ;
+  foaf:phone <tel:071519218> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Petar Partaloski" ;
+    foaf:mbox_sha1sum "ad9a09592cf78b49d73ccbb280d6a1970724884a" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Marko Blazhevski" ;
+    foaf:mbox_sha1sum "dd6b03236785011402d7be061744a2c49f87733b" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Gorgi Ivanov" ;
+    foaf:mbox_sha1sum "0ca0d3c4e14e984ed303e9161827cc19350e4bec" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=1>
+  ] .
