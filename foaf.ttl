@@ -29,5 +29,10 @@
 <foaf:Person>
 <foaf:name>Marko Blazhevski</foaf:name>
 <foaf:mbox_sha1sum>dd6b03236785011402d7be061744a2c49f87733b</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl"/></foaf:Person></foaf:knows></foaf:Person>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Gorgi Ivanov</foaf:name>
+<foaf:mbox_sha1sum>0ca0d3c4e14e984ed303e9161827cc19350e4bec</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=1"/></foaf:Person></foaf:knows></foaf:Person>
 </rdf:RDF>
